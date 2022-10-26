@@ -7,4 +7,5 @@ public class Pizza {
         this.cena=cena;
         this.name=name;
     }
+
 }

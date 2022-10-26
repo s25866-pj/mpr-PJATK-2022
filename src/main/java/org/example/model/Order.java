@@ -6,5 +6,6 @@ public class Order {
     public Order(int numer,Pizza pizza){
         this.numer=numer;
         this.pizza=pizza;
+
     }
 }
