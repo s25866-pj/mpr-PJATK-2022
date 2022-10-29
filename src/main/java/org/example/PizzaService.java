@@ -1,5 +1,7 @@
 package org.example;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.example.model.Order;
 import org.example.model.Pizza;
 
@@ -7,6 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PizzaService {
+    private static final Logger logger = LogManager.getLogger(PizzaService.class);
+
     private Pizza pizza;
 
     public Order makeOrder(int orderNumber,Pizza pizza){
